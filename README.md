@@ -176,3 +176,11 @@ def cadastrar_livro():
     logging.info(f'Livro cadastrado: {titulo} por {autor}')
     print("Livro cadastrado com sucesso!")
 O log será gravado no arquivo app.log.
+
+## Testes
+
+Para rodar os testes unitários:
+
+```bash
+pip install pytest
+pytest
